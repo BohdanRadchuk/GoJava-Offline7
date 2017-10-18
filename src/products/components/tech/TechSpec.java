@@ -1,4 +1,4 @@
-package products.components;
+package products.components.tech;
 
 public abstract class TechSpec {
 

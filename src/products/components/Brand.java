@@ -1,4 +1,9 @@
 package products.components;
 
-public class Brand {
+public abstract class Brand {
+    String brand;
+
+    public Brand(String brand) {
+        this.brand = brand;
+    }
 }
