@@ -3,6 +3,7 @@ package products.components;
 public class ExpirationDate {
     int creationdate;
     int temperature;
+    int expirationdatetime;
 
     public int getCreationdate() {
         return creationdate;
@@ -16,7 +17,7 @@ public class ExpirationDate {
         return expirationdatetime;
     }
 
-    int expirationdatetime;
+
 
     public ExpirationDate(int creationdate, int temperature, int expirationdatetime) {
         this.creationdate = creationdate;

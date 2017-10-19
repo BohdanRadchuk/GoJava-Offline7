@@ -3,14 +3,14 @@ package products;
 import products.components.Brand;
 
 public class Clothes extends SuperProduct {
-    public Clothes(int id, String name, int amount, String description, int price) {
-        super(id, name, amount, description, price);
-    }
-    Brand brand = new Brand() {
+    String brand;
+    Brand brand1 = new Brand(brand) {
     };
-
-    public void setBrand(Brand brand) {
+    public Clothes(int id, String name, int amount, String description, int price, String brand) {
+        super(id, name, amount, description, price);
         this.brand = brand;
+
     }
+
 
 }
